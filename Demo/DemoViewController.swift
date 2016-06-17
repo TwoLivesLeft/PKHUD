@@ -38,7 +38,7 @@ class DemoViewController: UIViewController {
     }
     
     @IBAction func showCustomProgressHUD(sender: AnyObject) {
-        HUD.flash(.RotatingImage(UIImage(named: "progress")), delay: 2.0)
+        HUD.flash(.RotatingImage(PKHUDAssets.progressCircularImage), delay: 2.0)
     }
     
     @IBAction func showAnimatedStatusProgressHUD(sender: AnyObject) {

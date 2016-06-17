@@ -27,7 +27,7 @@ public class PKHUDErrorView: PKHUDSquareBaseView, PKHUDAnimating {
         dash.lineCap     = kCALineCapRound
         dash.lineJoin    = kCALineJoinRound
         dash.fillColor   = nil
-        dash.strokeColor = UIColor(red: 0.15, green: 0.15, blue: 0.15, alpha: 1.0).CGColor
+        dash.strokeColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0).CGColor
         dash.lineWidth   = 6
         dash.fillMode    = kCAFillModeForwards
         return dash
